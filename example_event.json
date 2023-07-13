@@ -1,0 +1,78 @@
+{
+    "kind": "calendar#event",
+    "etag": "\"3378366899446000\"",
+    "id": "3p334319h5qfr324vlpih79dvj",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=M3AzMzQzMTloNXFmcjMyNHZscGloNzlkdmogamVzdXNAamVzdXNsdWNhcy5jb20",
+    "created": "2023-07-12T17:37:29.000Z",
+    "updated": "2023-07-12T17:37:29.723Z",
+    "summary": "Jesús / Jesús",
+    "creator": {
+        "email": "jesus@jesuslucas.com",
+        "displayName": "Jesús Lucas",
+        "self": true
+    },
+    "organizer": {
+        "email": "jesus@jesuslucas.com",
+        "displayName": "Jesús Lucas",
+        "self": true
+    },
+    "start": {
+        "dateTime": "2023-07-13T15:30:00+02:00",
+        "timeZone": "Europe/Madrid"
+    },
+    "end": {
+        "dateTime": "2023-07-13T16:30:00+02:00",
+        "timeZone": "Europe/Madrid"
+    },
+    "iCalUID": "3p334319h5qfr324vlpih79dvj@google.com",
+    "sequence": 0,
+    "attendees": [
+        {
+            "email": "jesuslucas@openwebinars.net",
+            "displayName": "Jesús Lucas Flores",
+            "responseStatus": "needsAction"
+        },
+        {
+            "email": "jesus@jesuslucas.com",
+            "displayName": "Jesús Lucas",
+            "organizer": true,
+            "self": true,
+            "responseStatus": "accepted"
+        }
+    ],
+    "hangoutLink": "https://meet.google.com/ojx-hkfc-apq",
+    "conferenceData": {
+        "entryPoints": [
+            {
+                "entryPointType": "video",
+                "uri": "https://meet.google.com/ojx-hkfc-apq",
+                "label": "meet.google.com/ojx-hkfc-apq"
+            },
+            {
+                "entryPointType": "more",
+                "uri": "https://tel.meet/ojx-hkfc-apq?pin=9973426363363",
+                "pin": "9973426363363"
+            },
+            {
+                "regionCode": "ES",
+                "entryPointType": "phone",
+                "uri": "tel:+34-872-55-86-19",
+                "label": "+34 872 55 86 19",
+                "pin": "406936118"
+            }
+        ],
+        "conferenceSolution": {
+            "key": {
+                "type": "hangoutsMeet"
+            },
+            "name": "Google Meet",
+            "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
+        },
+        "conferenceId": "ojx-hkfc-apq"
+    },
+    "reminders": {
+        "useDefault": true
+    },
+    "eventType": "default"
+}

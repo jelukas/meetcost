@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Google Calendar Meet Counter",
+  "version": "1.0",
+  "action": {
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["identity", "scripting", "tabs"],
+  "content_scripts": [{
+    "matches": ["https://calendar.google.com/calendar/*"],
+    "js": ["content.js"]
+  }],
+  "host_permissions": [
+    "https://www.googleapis.com/",
+    "https://calendar.google.com/"
+  ],
+  "oauth2": {
+    "client_id": "1055043634466-t0gef7rvg21o074phbf5ut5mp34n0n29.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/calendar"
+    ]
+  }
+}
